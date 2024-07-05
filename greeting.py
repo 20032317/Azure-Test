@@ -3,7 +3,7 @@ from flask import request
 app = Flask(__name__)
 @app.route("/")#URL leading to method
 def hello(): # Name of the method
- return("Hello World!")
+ return("Hello Bruce Wayne!")
 @app.route("/greetme")#different URL
 def helloall(): # different method name
  name = request.args.get('name')#retrieve GET parameters
